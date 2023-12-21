@@ -1,0 +1,34 @@
+@tailwind base;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-dot-primary font-light antialiased text-[18px];
+    font-family: 'Public Sans', sans-serif;
+  }
+
+}
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .row-image {
+    @apply w-full;
+  }
+  .form-input {
+    @apply border border-[#DBDFD4] rounded-md px-[12px] py-[10px] w-full text-[14px] w-full;
+  }
+
+  .bg-luma {
+    background-image: url('https://go.dotmatics.com/l/124102/2023-12-20/dbx8sg/124102/1703101535l1mOUYGu/luma_hero_bg.jpg');
+  }
+
+ #pardot-form .form-field .field-label {
+    @apply text-[14px] text-dot-primary font-medium text-opacity-60;
+  }
+
+  .footer-form #pardot-form .form-field .field-label {
+    @apply text-[#DBDFD4];
+  }
+}

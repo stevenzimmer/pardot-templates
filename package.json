@@ -1,0 +1,27 @@
+{
+  "name": "pardot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "live-server ./lp-1 & postcss ./lp-1/css/input.css -o ./lp-1/dist/output.css --minify --watch",
+    "dev-top-nav": "live-server ./top-nav & postcss ./top-nav/css/input.css -o ./top-nav/dist/output.css --minify --watch",
+    "dev-1": "live-server ./lp-2 & postcss ./lp-2/css/input.css -o ./lp-2/dist/output.css --minify --watch",
+    "abm": "live-server ./abm & postcss ./abm/css/input.css -o ./abm/dist/output.css --minify --watch",
+    "unilever": "live-server ./unilever & postcss ./unilever/css/input.css -o ./unilever/dist/output.css --minify --watch",
+    "luma": "live-server ./luma & postcss ./luma/css/input.css -o ./luma/dist/output.css --minify --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
