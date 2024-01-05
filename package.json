@@ -10,7 +10,8 @@
     "dev-1": "live-server ./lp-2 & postcss ./lp-2/css/input.css -o ./lp-2/dist/output.css --minify --watch",
     "abm": "live-server ./abm & postcss ./abm/css/input.css -o ./abm/dist/output.css --minify --watch",
     "unilever": "live-server ./unilever & postcss ./unilever/css/input.css -o ./unilever/dist/output.css --minify --watch",
-    "luma": "live-server ./luma & postcss ./luma/css/input.css -o ./luma/dist/output.css --minify --watch"
+    "luma": "live-server ./luma & postcss ./luma/css/input.css -o ./luma/dist/output.css --minify --watch",
+    "bayer": "live-server ./bayer & postcss ./bayer/css/input.css -o ./bayer/dist/output.css --minify --watch"
   },
   "keywords": [],
   "author": "",
