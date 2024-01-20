@@ -11,7 +11,9 @@
     "abm": "live-server ./abm & postcss ./abm/css/input.css -o ./abm/dist/output.css --minify --watch",
     "unilever": "live-server ./unilever & postcss ./unilever/css/input.css -o ./unilever/dist/output.css --minify --watch",
     "luma": "live-server ./luma & postcss ./luma/css/input.css -o ./luma/dist/output.css --minify --watch",
-    "bayer": "live-server ./bayer & postcss ./bayer/css/input.css -o ./bayer/dist/output.css --minify --watch"
+    "bayer": "live-server ./bayer & postcss ./bayer/css/input.css -o ./bayer/dist/output.css --minify --watch",
+    "roche": "live-server ./roche & postcss ./roche/css/input.css -o ./roche/dist/output.css --minify --watch",
+    "homepage": "live-server ./homepage & postcss ./homepage/css/input.css -o ./homepage/dist/output.css --minify --watch"
   },
   "keywords": [],
   "author": "",
