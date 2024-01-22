@@ -21,6 +21,7 @@ module.exports = {
         dot: {
             primary: "#152430",
             grey: "#515C62",
+            hazel: "#BAB78D",
         },
         nq: {
           forest: "#152430",

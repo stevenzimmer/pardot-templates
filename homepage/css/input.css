@@ -1,7 +1,8 @@
 @tailwind base;
 @layer base {
   html {
-  scroll-behavior: smooth;
+    @apply scroll-smooth overflow-x-hidden;
+  /* scroll-behavior: smooth; */
 }
   body {
     @apply text-dot-primary font-light antialiased text-[18px];
@@ -25,5 +26,36 @@
 
   .footer-form #pardot-form .form-field .field-label {
     @apply text-[#DBDFD4];
+  }
+
+  .btn {
+    @apply block py-3 px-6 font-semibold rounded-full border-2 text-[16px] transition-all duration-200 whitespace-nowrap text-center md:py-4 md:px-10 md:text-[18px];
+
+  }
+
+  .list-chevron {
+    list-style-image: url("../images/icons/chevron-right.svg");
+  }
+
+  .tab {
+    @apply p-4 md:text-[23px] font-normal bg-nq-grey/30 text-center border-b-4 border-transparent cursor-pointer flex items-center justify-center;
+    &.tab-active {
+      @apply bg-nq-grey border-dot-hazel;
+    }
+
+    &-panel {
+      @apply flex md:hidden;
+
+      &.active {
+        @apply flex;
+      }
+    }
+
+    &-trigger {
+      @apply hidden;
+      &.active {
+        @apply md:flex;
+      }
+    }
   }
 }
