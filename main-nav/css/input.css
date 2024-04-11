@@ -1,0 +1,24 @@
+/* @tailwind base; */
+
+@tailwind components;
+@tailwind utilities;
+.universal-dropdown-trigger.active p {
+  @apply dot-text-nq-jade;
+}
+.universal-dropdown-trigger.active .universal-dropdown-caret {
+  @apply  dot-stroke-nq-jade;
+  rotate: 180deg;
+}
+.btn {
+    @apply dot-px-[24px] dot-py-[8px] dot-rounded-full dot-font-medium dot-border-2 dot-no-underline hover:dot-no-underline dot-inline-block dot-transition dot-duration-200;
+  }
+
+
+
+@media(max-width: 767px) {
+.button {
+    @apply dot-text-[18px] dot-px-[32px] dot-py-[12px] !important;
+}
+}
+
+
