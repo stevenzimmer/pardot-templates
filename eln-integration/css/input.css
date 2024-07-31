@@ -1,0 +1,52 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply text-dot-primary font-light antialiased text-[18px];
+    font-family: 'Public Sans', sans-serif;
+  }
+
+}
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .row-image {
+    @apply w-full;
+  }
+  .form-input {
+    @apply border border-[#DBDFD4] rounded-md px-[12px] py-[10px] w-full text-[14px] w-full;
+  }
+
+ #pardot-form .form-field .field-label {
+    @apply text-[14px] text-dot-primary font-medium text-opacity-60;
+  }
+
+  .footer-form #pardot-form .form-field .field-label {
+    @apply text-white;
+  }
+  .btn {
+    @apply inline-block py-3 px-6 font-semibold rounded-full border-2 text-[16px] transition-all duration-200 whitespace-nowrap text-center  md:px-8 md:text-[18px];
+
+  }
+
+  
+}
+
+.supported-instruments-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+    th {
+      border-bottom: 3px solid #dbdfd4;
+      @apply font-semibold;
+    }
+
+    td,th {
+      padding: 8px 12px;
+      @apply text-left text-[16px];
+    }
+
+    td {
+    border-bottom: 1px solid #dbdfd4;
+    font-weight: 400;
+}
+
+  }
